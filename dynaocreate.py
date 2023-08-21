@@ -3,9 +3,6 @@ import time
 from boto3.dynamodb.conditions import Key
 from boto3.dynamodb.conditions import Attr
 
-aws_access_key_id = "AKIAYJUMD7OEQPKOQ46U"
-aws_secret_access_key = "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"
-
 class DynamoDB(object):
     """docstring for DynamoDB"""
     def __init__(self, arg):
